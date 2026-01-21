@@ -1,0 +1,25 @@
+telegram:
+  bot_token: "8408496928:AAFHohFZK4nYENCfO2vIT9DF26YC8PHNSiQ"  
+  chat_id: "939966038"      
+
+log_file: "logs.log"
+
+# Регулярные выражения для фильтрации логов
+filters:
+  - name: "Critical Issues"
+    pattern: "\\[(ERROR|FATAL)\\]"
+    enabled: true
+  
+  - name: "Auth Events"
+    pattern: "(logged in|logged out)"
+    enabled: true
+  
+  - name: "File Operations"
+    pattern: "(uploaded|downloaded)"
+    enabled: true
+
+
+monitoring:
+  check_interval: 1  
+  batch_size: 10    
+  batch_timeout: 5   
