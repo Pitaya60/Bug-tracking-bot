@@ -1,6 +1,6 @@
 telegram:
-  bot_token: "8408496928:AAFHohFZK4nYENCfO2vIT9DF26YC8PHNSiQ"  
-  chat_id: "939966038"      
+  bot_token: "Your Token"  
+  chat_id: "Your Chat Id"      
 
 log_file: "logs.log"
 
